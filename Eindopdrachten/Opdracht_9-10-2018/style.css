@@ -1,0 +1,13 @@
+#list tbody tr{
+    display: grid;
+
+    grid-template-columns: 25% 25% 25% 5%;
+    grid-template-rows: 100%;
+    border: black 1px solid;
+}
+#list tbody tr ~ tr{
+    border-top: none;
+}
+#list{
+    width: 45%;
+}
